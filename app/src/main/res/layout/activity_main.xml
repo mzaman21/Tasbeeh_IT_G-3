@@ -26,7 +26,7 @@
         android:layout_marginTop="45dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Kalma"
+        android:text="0"
         app:layout_constraintStart_toStartOf="@+id/Daroodcount"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -38,7 +38,7 @@
         android:layout_marginTop="34dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Darood Sharif"
+        android:text="0"
         app:layout_constraintStart_toEndOf="@+id/DaroodCheck"
         app:layout_constraintTop_toBottomOf="@+id/KalamaCount" />
 
@@ -49,7 +49,7 @@
         android:layout_marginTop="32dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Astgfar"
+        android:text="0"
         app:layout_constraintStart_toStartOf="@+id/Daroodcount"
         app:layout_constraintTop_toBottomOf="@+id/Daroodcount" />
 
@@ -97,9 +97,10 @@
         android:id="@+id/RecordBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="29dp"
+        android:layout_marginTop="28dp"
         android:text="Record"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Savebtn" />
 

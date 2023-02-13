@@ -26,7 +26,7 @@ public class DBhelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase TasbeehDb) {
-        String createTableSTatement = "CREATE TABLE " + Tasbeeh_TABLE + "(" + TasbeehID + " Date PRIMARY KEY AUTOINCREMENT, " + TodayDate + " Text, " + KalmaCount + " Int, " + DaroodCount + " Int, " + AstgfarCount + " Int) ";
+        String createTableSTatement = "CREATE TABLE " + Tasbeeh_TABLE + "(" + TasbeehID + " Integer PRIMARY KEY AUTOINCREMENT, " + TodayDate + " Text, " + KalmaCount + " Int, " + DaroodCount + " Int, " + AstgfarCount + " Int) ";
         TasbeehDb.execSQL(createTableSTatement);
     }
 
@@ -35,6 +35,7 @@ public class DBhelper extends SQLiteOpenHelper {
 
     }
     public void  addTasbeeh(TasbeehModel Today_Tasbeeh){
+
         SQLiteDatabase db = this.getWritableDatabase();
         //Hash map, as we did in bundles
         ContentValues cv= new ContentValues();

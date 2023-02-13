@@ -71,6 +71,7 @@ public class MainActivity extends AppCompatActivity {
         recordbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //recordbtn.setText("i am clicked");
                 Intent mainresultactivity = new Intent(MainActivity.this,MainActivity2.class);
                 MainActivity.this.startActivity(mainresultactivity);
             }
