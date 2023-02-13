@@ -59,7 +59,7 @@ public class GridAdapter extends BaseAdapter {
         t_date.setText(list.get(i).getToday_date());
         t_kalma.setText(kstr);
         t_darood.setText(dstr);
-        t_astgfar.setText(astr);
+//        t_astgfar.setText(astr);
 
         return myview;
     }
